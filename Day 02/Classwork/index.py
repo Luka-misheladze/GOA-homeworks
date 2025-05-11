@@ -1,0 +1,5 @@
+print(20+60)
+print(50-27)
+print(45 / 5)
+print(15 * 2)
+print(12 // 5)
