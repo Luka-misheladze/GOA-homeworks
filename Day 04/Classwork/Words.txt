@@ -1,0 +1,8 @@
+
+                                                                        "უცხო სიტყვები"       
+
+
+Qutation marks - ბრჭყალები - "Example"
+Parentheses - ფრიჩხილებიი - (Example)
+Declared - დეკლარაცია - ცვლადის სახელის დარქმევას ეწოდება "Declaration"
+Line by line - ხაზ ხაზ, ჯერ ერთი ხაზი წაიკითხა მერე მეორე.
