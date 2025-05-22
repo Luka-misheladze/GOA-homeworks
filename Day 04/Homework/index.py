@@ -4,7 +4,17 @@
 Name = "luka"
 Year = 2010
 
+#                                                       ჩვენ შეგვიძლია სტრინგი დავამატოთ ინტეჯერთან ორი თიპის სახით:
+
+#                                  f"{Example}"       და          +str(Example) - შეგვიძლია დავამატოთ კიდევ ერთი ტექსტი ამის შემდეგ, მაგალითად:
+
+#                                                                  +str(Example) + " turning 15 this year" 
+#                                                        და შეგვიძლია ეს ფუნქცია ტექსტის შორისაც ჩავსვათ, მაგალითად:
+
+#                                                      "luka was born in" +str(Example) + " he is turning 15 this year"
+
 print(Name+ " was born in " +str(Year) + " he is turning 15 this year")
+
 print(f"{Name} was born in {Year} he is turning 15 this year")
 
 
@@ -57,3 +67,7 @@ inte1 = 60
 inte2 = 47
 Result = inte1 / inte2
 print(Result)
+
+
+
+#                                                  მას ბოდიშით ასევეე Incredibly In Your Face ვერ გავაკეთე 20 Error - ს ვერ გავცდი.
