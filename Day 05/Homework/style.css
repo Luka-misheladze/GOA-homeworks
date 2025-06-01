@@ -1,0 +1,39 @@
+.P1{
+
+border-style: ridge;
+border-width: 10px;
+border-color: rgb(0, 156, 161);
+width: 650px ;
+height: 137px;
+
+margin-left: 580px;
+padding-left: 30px;
+
+
+}
+
+
+.H2{
+
+text-align: center;
+
+
+
+
+}
+
+
+
+.H1{
+
+text-align: center;
+border-style: groove;
+border-width: 10px;
+width: 550px;
+height: 102px;
+margin-left: 650px;
+border-color: rgb(85, 155, 255);
+
+
+
+}
