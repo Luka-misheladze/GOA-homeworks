@@ -1,14 +1,17 @@
 .P1{
 
-border-style: ridge;
+border-style: double;
 border-width: 10px;
-border-color: rgb(0, 156, 161);
+border-color: rgb(26, 87, 167);
 width: 650px ;
-height: 137px;
+height: 145px;
+text-align: center;
 
 margin-left: 580px;
-padding-left: 30px;
-
+padding-left: 20px;
+padding-right: 24px;
+padding-top: 15px;
+padding-bottom: 15px;
 
 }
 
@@ -37,3 +40,35 @@ border-color: rgb(85, 155, 255);
 
 
 }
+
+.img{
+
+position: relative;
+bottom: -10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
