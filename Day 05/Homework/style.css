@@ -1,45 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .P1{
 
 border-style: double;
 border-width: 10px;
-border-color: rgb(26, 87, 167);
+border-color: #1a7a4c;
 width: 650px ;
-height: 145px;
+height: 193px;
 text-align: center;
+background-color: #1f2c3a;
 
-margin-left: 580px;
+
+margin: 0 auto;
 padding-left: 20px;
 padding-right: 24px;
 padding-top: 15px;
 padding-bottom: 15px;
 
+
+
 }
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 
 
 .H2{
 
 text-align: center;
+margin-bottom: 45px;
 
 
 
 
 }
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 
 
 
 .H1{
 
 text-align: center;
-border-style: groove;
+border-style: double;
 border-width: 10px;
 width: 550px;
-height: 102px;
-margin-left: 650px;
-border-color: rgb(85, 155, 255);
-
+height: 115px;
+margin: 0 auto;
+border-color: #1a7a4c;  
+background-color: #101820;
 
 
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
 
 .img{
 
@@ -50,19 +81,202 @@ bottom: -10px;
 
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+.Settings{
+
+border-style: solid;
+border-width: 1.5px;
+margin-top: 15px;
+
+
+
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+.yout{
+
+
+position: relative;
+bottom: -10px;
 
 
 
 
 
 
+}
+
+
+
+.Igues{
+padding-left: 5px;
+
+
+}
+
+
+.icon{
+padding-left: 5px;
+
+
+}
+
+.Yt{
+
+padding-left: 5px;
+
+
+
+}
+
+
+
+
+.button{
+
+width: 125px;
+margin-left: 155px;
+
+
+}
+
+
+
+
+.par{
+
+margin-left: 20px;
 
 
 
 
 
+}
 
 
+.Cartype{
+
+margin-left: 35px;
+
+
+
+}
+
+
+
+.Seats{
+
+margin-left: 20px;
+
+
+
+
+}
+
+
+
+.carimages{
+
+margin-left: 20px;
+
+
+
+
+}
+
+
+
+.aboutus{
+
+margin-left: 20px;
+border-style: double;
+border-width: 12px;
+width: 566px;
+padding-left: 15px;
+height: 130px;
+padding-top: 10px;
+border-color: rgb(212, 207, 150);
+background-color: #02343F;
+color: white;
+
+
+
+}
+
+
+
+.About{
+
+margin-left: 27px;
+;
+
+
+
+}
+
+
+
+
+
+.Border1{
+
+margin-left: 23px;
+padding-top: 1.5px;
+
+
+
+
+}
+
+
+.social{
+
+margin-left: 22px;
+
+
+
+}
+
+
+
+.facebook{
+
+margin-left: 20px;
+
+
+
+}
+
+
+
+
+.Yt{
+
+margin-left: 15px;
+
+
+
+
+}
+
+
+ /* body{ 
+    
+ background: linear-gradient(to bottom, black,  darkred); 
+
+
+} 
 
 
 
