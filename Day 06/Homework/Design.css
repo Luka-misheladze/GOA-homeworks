@@ -1,0 +1,260 @@
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+header{
+background-color: white;
+padding: 0px 0px 30px 0px
+
+
+}
+
+
+.everything{
+padding:30px;
+display: flex;
+align-items: center;
+gap: 400px;
+
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.712);
+
+
+}
+
+
+
+
+
+
+
+header img{
+
+width: 100px;
+
+
+}
+
+
+nav{
+
+display: flex;
+
+width: 350px;
+gap: 200px;
+justify-content: space-between
+
+
+
+
+}
+
+
+.grocery{
+
+display: flex;
+align-items: center;
+gap: 70px;
+}
+
+
+nav a{
+
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(43, 25, 80);
+
+}
+
+
+
+.grocery a{
+
+font-size: 40px;
+text-decoration: none;
+color: rgb(43, 25, 80);
+font-weight: 700;
+}
+
+.main{
+
+width: 100%;
+height: 500px;
+background-image: url(saladd.png) , url(salad2.png); 
+background-size: contain;
+background-repeat: no-repeat;
+background-position: left , right;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+body{
+
+background-color: rgb(221, 221, 221);
+
+
+}
+
+
+.text{
+
+    width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+
+}
+
+
+
+
+.text p{
+
+font-size: 22px;
+
+
+}
+
+
+.text h1{
+
+font-size: 45px;
+
+
+}
+
+
+
+.text button{
+
+font-size: 30px;
+border: solid 2px;
+border-radius: 7px;
+padding: 10px;
+cursor: pointer;
+
+
+}
+
+
+
+.features{
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+gap: 60px;
+margin-bottom: 50px;
+}
+
+
+.cards{
+
+    display: flex;
+    gap: 141px;
+    align-items: center;
+    
+
+
+
+}
+
+
+
+.card{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 450px;
+text-align: center;
+background-color: white;
+padding: 15px;
+border-radius: 7px;
+gap: 22px;
+transition: 0.4s;
+}
+
+
+.feat{
+
+font-size: 55px;
+padding: 7px;
+border-radius: 7px;
+color: white;
+background-color: green;
+
+}
+
+
+.card button{
+
+font-size: 22px;
+border: none;
+padding: 7px;
+border-radius: 7px;
+color: white;
+background-color: green;
+cursor: pointer;
+
+}
+
+
+
+.card:hover{
+
+box-shadow: 0px 0px 20px green;
+transform: translateY(-30px);
+
+
+
+
+}
+
+
+.card img{
+
+    height: 350px;
+    width: 450px;
+
+
+
+}
+
+footer{
+
+background-color: white;
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+footer img{
+
+width: 40px;
+
+
+}
+
+.follow{
+
+display: flex;
+gap: 70px;
+
+
+}
