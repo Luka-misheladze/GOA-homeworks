@@ -1,0 +1,205 @@
+*{
+text-decoration: none;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+
+
+.everything{
+padding: 10px;
+display: flex;
+align-items: center;
+gap: 400px;
+
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.712);
+
+
+}
+
+
+header img{
+
+    width: 160px;
+    
+
+}
+
+
+nav{
+
+display: flex;
+gap: 250px;
+
+}
+
+
+.giraffe{
+
+display: flex;
+align-items: center;
+
+
+
+}
+
+
+.giraffe a{
+
+font-size: 30px;
+font-weight: 800;
+color: rgb(204, 204, 2);
+
+}
+
+
+nav a{
+
+    color: black;
+    font-size: 20px;
+
+}
+
+.main{
+
+    background-image: url(./Giraffe.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text{
+
+    margin-left: 500px;
+
+}
+
+
+
+main button{
+
+    font-size: 23px;
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+main p{
+
+    font-size: 17px;
+
+}
+
+
+main h1{
+
+    font-size: 42px;
+
+}
+
+main button:hover{
+
+    transform: scale(1.2);
+    transition: 0.2s;
+
+}
+
+
+main h2{
+
+    font-size: 42px;
+    color: orange;
+    padding: 20px;
+
+}
+
+
+.information p{
+
+    padding: 30px;
+    font-size: 22px;
+
+}
+
+.Education h3{
+
+    font-size: 35px;
+
+}
+
+.Education p{
+
+    padding: 10px;  
+    font-size: 22px;
+
+}
+
+.Research h3{
+
+    font-size: 35px;
+
+}
+
+.Research p{
+
+    font-size: 22px;
+
+}
+
+.info2{
+
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 400px;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+
+.Education{
+
+    text-align: center;
+
+}
+
+
+.Research{
+
+    text-align: center;
+
+}
+
+.fact{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.fact p{
+
+    width: 500px;
+    font-size: 20px;
+
+}
+
+
+
