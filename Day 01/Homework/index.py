@@ -5,7 +5,7 @@ weight = 45.67
 Height = 175
 
 
-print(name, age, address, weight, Height)
+print("i'm",name,"i am",age,"years old, i live in",address,"i weight",weight,"and im",Height,"tall")
 
 
 #                                                           string - ბრჭყალებში მოქცეული სიმბოლოები, მაგალითად: "ლუკა" , "56"
