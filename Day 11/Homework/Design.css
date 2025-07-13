@@ -1,0 +1,18 @@
+.information{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+
+}
+
+
+
+
+.information img:hover{
+
+    transition: 0.3s;
+    transform: translateY(-10px)
+    
+}

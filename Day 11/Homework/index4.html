@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My favorite dishes.</title>
+    <link rel="stylesheet" href="Design.css">
 </head>
 <body>
 
     <style>
-
-        *{
+        * {
 
             padding: 0;
             margin: 0;
@@ -18,30 +18,51 @@
         }
 
 
-        h1{
+        html{
+
+            scroll-behavior: smooth;
+
+        }
+
+
+
+        h1 {
 
             text-align: center;
             height: 60px;
+            padding-top: 10px;
+            width: 1200px;
 
         }
 
 
-        h2{
+        
+        .Main{
 
-            font-size: 45px;
-            margin-left: 30px;
+            font-size: 35px;
+            font-weight: 800;
 
         }
 
 
-        .shawarma2{
+        .ingredients{
+
+            font-size: 30px;
+            margin-left: 70px;
+            color: green
+
+        }
+
+
+
+        .shawarma2 {
 
             color: rgb(179, 71, 0);
 
         }
 
 
-        .shawarma img{
+        .shawarma img {
 
             margin-left: 30px;
             border: double;
@@ -52,14 +73,14 @@
         }
 
 
-        .shawarma img:hover{
+        .shawarma img:hover {
 
-            transform: translateY(-20px);
+            transform: translateY(-15px);
 
         }
 
 
-        img{
+        .Shawarmapng {
 
             box-shadow: 0px 0px 20px;
 
@@ -67,15 +88,23 @@
 
 
 
-        .shawarma h3{
+        .Pizzapng{
 
-            font-size: 30px;
-            margin-left: 32px;
-            color: green;
+            box-shadow: 0px 0px 20px;
 
         }
 
-        li{
+
+
+        .Mwvadipng{
+
+            box-shadow: 0px 0px 20px;
+
+        }
+
+
+
+        li {
 
             margin-left: 65px;
             font-size: 20px;
@@ -84,7 +113,7 @@
 
 
 
-        .shawarma button{
+        .shawarma button {
 
             font-size: 25px;
             margin-left: 65px;
@@ -98,7 +127,7 @@
         }
 
 
-        .shawarma button:hover{
+        .shawarma button:hover {
 
             transform: scale(1.3);
             border: none;
@@ -106,7 +135,7 @@
         }
 
 
-        .Pizza img{
+        .Pizza img {
 
             border: double;
             border-width: 7px;
@@ -119,14 +148,14 @@
 
 
 
-        .Pizza img:hover{
+        .Pizza img:hover {
 
-            transform: translateY(-20px);
+            transform: translateY(-15px);
 
         }
 
 
-        .Pizza h3{
+        .Pizza h3 {
 
             font-size: 30px;
             margin-left: 32px;
@@ -136,7 +165,7 @@
         }
 
 
-        .Pizza button{
+        .Pizza button {
 
             font-size: 25px;
             margin-left: 65px;
@@ -150,7 +179,7 @@
         }
 
 
-        .Pizza button:hover{
+        .Pizza button:hover {
 
             transform: scale(1.3);
             border: none;
@@ -159,7 +188,7 @@
 
 
 
-        .Mwvadi img{
+        .Mwvadi img {
 
             border: double;
             border-width: 9px;
@@ -172,14 +201,14 @@
 
 
 
-        .Mwvadi img:hover{
+        .Mwvadi img:hover {
 
-            transform: translateY(-30px);
+            transform: translateY(-15px);
 
         }
 
 
-        .Mwvadi h3{
+        .Mwvadi h3 {
 
             color: green;
             margin-left: 33px;
@@ -188,7 +217,7 @@
         }
 
 
-        .Mwvadi button{
+        .Mwvadi button {
 
             font-size: 25px;
             margin-left: 65px;
@@ -204,7 +233,7 @@
 
 
 
-        .Mwvadi button:hover{
+        .Mwvadi button:hover {
 
             transform: scale(1.3);
 
@@ -212,162 +241,201 @@
 
 
 
-        .Mwvadi h2{
+        .Mwvadi h2 {
 
             color: rgb(124, 46, 0);
-            
+
         }
 
 
+        .header{
+
+            display: flex;
+            justify-content: space-evenly;
+            padding: 15px;
+
+        }
 
 
+        .header a{
+
+            padding-top: 13px;
+
+        }
+
+        
 
     </style>
 
-
-    <h1>My favorite dishes and their ingredients : </h1>
-
-    <hr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <h2 class="shawarma2">SHAWARMA : </h2>    
-
-    <br>
-    <br>
-
-
-    <div class="shawarma">
-
-        <img src="./Shawarma.png" alt="Shawarma" title="shawarma" width="350px">
-          
-        <br>
-        <br>
-
-        <h3>ingredients:</h3>
-
-        <br>
-        <br>
-
-        <ul type="circle">
-
-            <li>Cumin</li>
-            <li>Paprika</li>
-            <li>Boneless chicken thighs</li>
-            <li>Garlic</li>
-            <li>Ground Coriander</li>
-            <li>Olive oil</li>
-            <li>Turmeric powder</li>
-            <li>Medium sliced onion</li>
-            <li>2 Cardamom Pods</li>
-            <li>Garlic powder</li>
-            <li>Lemon juice</li>
-            <li>Teaspoon ground cinnamon</li>
-            <li>Teaspoon salt</li>
-            <li>Cinnamon</li>
-            <li>Garlic cloves</li>
-            <li>Salt to taste</li>
-            <li>Tbsp olive oil</li>
-            <li>Vegetable oil</li>
-            <li>Teaspoon black pepper</li>
-            <li>Teaspoon cayenne pepper</li>
-            <li>Tomatoes</li>
-            <li>Black pepper</li>
-            <li>Chicken breasts</li>
-            <li>Greek yogurt</li>
-
-        </ul>
-
-        <br>
-        <br>
-
-        <button>Order</button>
-
-    </div>
-
-
-    <div class="Pizza">
-
-        <h2><b style="color: orangered;">Piz</b><b style="color: orange;">za : </b></h2>
-        <br>
-        <br>
-
-        <img src="./Pizza.png" alt="Pizza" title="Pizza" width="300px">
-        <br>
+    <ol type="1">
         
-        <h3>ingredients : </h3>
+        <header class="header">
+            <h1>My favorite dishes and their ingredients : </h1>
+            <a href="#Info"><h2>information</h2></a>
+        </header>
+        
 
-        <ul type="circle">
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <li class="Main">Shawarma</li>
+
+
+        <br>
+        <br>
+
+
+        <div class="shawarma">
+
+            <img class="Shawarmapng" src="./Shawarma.png" alt="Shawarma" title="shawarma" width="350px">
 
             <br>
-            <li>Extra virgin olive oil</li>
-            <li>Cornmeal (to help slide the pizza onto the pizza stone)</li>
-            <li>Tomato sauce (smooth or pureed)</li>
-            <li>Firm mozzarella cheese, grated</li>
-            <li>Fresh soft mozzarella cheese, separated into small clumps</li>
-            <li>Fontina cheese, grated</li>
-            <li>Parmesan cheese, grated</li>
-            <li>Feta cheese, crumbled</li>
-            <li>Mushrooms, very thinly sliced if raw, otherwise first sautéed</li>
-            <li>Bell peppers, stems and seeds removed, very thinly sliced</li>
-            <li>Italian pepperoncini, thinly sliced</li>
-            <li>Italian sausage, cooked ahead and crumbled</li>
-            <li>Sliced black olives</li>
-            <li>Chopped fresh basil</li>
-            <li>Baby arugula, tossed in a little olive oil, added as pizza comes out of the oven</li>
+            <br>
 
-        </ul>
+            <li class="ingredients">ingredients : </li>
 
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <button>Order</button>
+            <ul type="circle">
 
-    </div>
+                <li>Cumin</li>
+                <li>Paprika</li>
+                <li>Boneless chicken thighs</li>
+                <li>Garlic</li>
+                <li>Ground Coriander</li>
+                <li>Olive oil</li>
+                <li>Turmeric powder</li>
+                <li>Medium sliced onion</li>
+                <li>2 Cardamom Pods</li>
+                <li>Garlic powder</li>
+                <li>Lemon juice</li>
+                <li>Teaspoon ground cinnamon</li>
+                <li>Teaspoon salt</li>
+                <li>Cinnamon</li>
+                <li>Garlic cloves</li>
+                <li>Salt to taste</li>
+                <li>Tbsp olive oil</li>
+                <li>Vegetable oil</li>
+                <li>Teaspoon black pepper</li>
+                <li>Teaspoon cayenne pepper</li>
+                <li>Tomatoes</li>
+                <li>Black pepper</li>
+                <li>Chicken breasts</li>
+                <li>Greek yogurt</li>
+
+            </ul>
+
+            <br>
+            <br>
+
+            <button>Order</button>
+
+        </div>
 
 
-    <div class="Mwvadi">
+        <div class="Pizza">
 
-        <h2>Mwvadi : </h2>
-        <br>
-        <br>
-        <br>
+            <li class="Main">Pizza</li>
+            <br>
+            <br>
 
-        <img src="./Mwvadi.png" alt="Mwvadi" title="mwvadi / pork" width="380px">
+            <img class="Pizzapng" src="./Pizza.png" alt="Pizza" title="Pizza" width="300px">
+            <br>
+            <br>
+            <li class="ingredients">ingredients : </li>
+            
 
-        <br>
-        <br>
-        <br>
+            <ul type="circle">
 
-        <h3>ingredients : </h3>
+                <br>
+                <li>Extra virgin olive oil</li>
+                <li>Cornmeal (to help slide the pizza onto the pizza stone)</li>
+                <li>Tomato sauce (smooth or pureed)</li>
+                <li>Firm mozzarella cheese, grated</li>
+                <li>Fresh soft mozzarella cheese, separated into small clumps</li>
+                <li>Fontina cheese, grated</li>
+                <li>Parmesan cheese, grated</li>
+                <li>Feta cheese, crumbled</li>
+                <li>Mushrooms, very thinly sliced if raw, otherwise first sautéed</li>
+                <li>Bell peppers, stems and seeds removed, very thinly sliced</li>
+                <li>Italian pepperoncini, thinly sliced</li>
+                <li>Italian sausage, cooked ahead and crumbled</li>
+                <li>Sliced black olives</li>
+                <li>Chopped fresh basil</li>
+                <li>Baby arugula, tossed in a little olive oil, added as pizza comes out of the oven</li>
 
-        <br>
-        <br>
+            </ul>
 
-        <ul type="circle">
-            <li>2 kg pork for barbeque</li>
-            <li>5 onions</li>
-            <li>650 ml fresh pomegranate juice</li>
-            <li>2 tablespoon oil</li>
-            <li>Salt, black pepper to taste</li>
-            <li>Khmeli suneli (traditional Georgian spice mix) (It includes: coriander, dill, basil, bay leaf, marjoram, blue fenugreek.)</li>
-            <li>-0.1 coriander</li>
-        </ul>
+            <br>
+            <br>
 
-        <br>
-        <br>
+            <button>Order</button>
 
-        <button>Order</button>
+        </div>
 
-    </div>
 
+        <div class="Mwvadi">
+
+
+            <li class="Main">Mwvadi : </li>
+            <br>
+            <br>
+
+            <img class="Mwvadipng" src="./Mwvadi.png" alt="Mwvadi" title="mwvadi / pork" width="380px">
+
+            <br>
+            <br>
+            <br>
+
+            <li class="ingredients">ingredients : </li>
+
+            <br>
+            <br>
+
+            <ul type="circle">
+                <li>2 kg pork for barbeque</li>
+                <li>5 onions</li>
+                <li>650 ml fresh pomegranate juice</li>
+                <li>2 tablespoon oil</li>
+                <li>Salt, black pepper to taste</li>
+                <li>Khmeli suneli (traditional Georgian spice mix) (It includes: coriander, dill, basil, bay leaf,
+                    marjoram, blue fenugreek.)</li>
+                <li>-0.1 coriander</li>
+            </ul>
+
+            <br>
+            <br>
+
+            <button>Order</button>
+
+    </ol>
+
+
+    <footer>
+
+        <hr>
+
+        <div class="information" id="Info">
+            
+            <h2 style="font-size: 40px; color: cornflowerblue;">Contacts : </h2>
+
+            <a target="_blank" href="https://www.facebook.com/luka.luka.887417"><img src="./facebook-color-svgrepo-com.svg" alt="" width="50px"></a>
+            <a target="_blank" href="https://www.instagram.com/luka__sks/"><img src="./instagram-1-svgrepo-com.svg" alt="" width="55px"></a>
+            <a target="_blank" href="https://www.youtube.com/@Luka-Misheladze"><img src="./youtube-color-svgrepo-com.svg" alt="" width="55px"></a>
+
+        </div>
+    
+    </footer>
 
 </body>
 </html>
