@@ -1,0 +1,244 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 20px steelblue;
+  background: linear-gradient(white , rgb(146, 202, 253));
+}
+
+
+header h1 {
+  font-size: 35px;
+  transition: 0.4s ease;
+}
+
+
+header h1:hover {
+  text-decoration: underline;
+}
+
+
+nav {
+  padding: 50px;
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+
+nav a {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.4s ease;
+  color: rgb(0, 110, 255);
+  text-align: center;
+}
+
+
+nav a:hover {
+  transform: translateY(-15px);
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+
+
+.SaveTheWorld {
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+
+.SaveTheWorld:hover {
+  transform: translateX(20px);
+}
+
+
+.header h1 {
+  border: 8px double green;
+  padding: 25px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 7px;
+}
+
+
+.blue {
+  color: rgb(0, 89, 255);
+}
+
+
+.red {
+  color: red;
+}
+
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+}
+
+
+.earth-img {
+  width: 300px;
+  height: auto;
+}
+
+
+.reasons {
+  max-width: 600px;
+  text-align: left;
+}
+
+
+.reasons h2 {
+  text-align: center;
+}
+
+
+.reasons ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.save {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.pollution-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+}
+
+
+.pollution-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+
+.pollution-text h2 {
+  margin-bottom: 10px;
+}
+
+
+.pollution-text ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.pollution-text button {
+  cursor: pointer;
+  color: brown;
+  border: solid 1px;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  top: 10px;
+  left: 75px;
+  transition: 0.3s ease;
+}
+
+
+.pollution-text button:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: rgb(248, 97, 97);
+}
+
+
+.pollution-img {
+  width: 300px;
+  height: auto;
+}
+
+
+img {
+  cursor: pointer;
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+
+img:hover {
+  transform: translateY(-20px);
+}
+
+
+.pollution-types {
+  text-align: center;
+  border: double 9px;
+  border-color: rgb(131, 63, 7);
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  left: 120px;
+  bottom: 60px;
+}
+
+
+.pollution-types h2 {
+  color: orange;
+}
+
+
+.ul-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  bottom: 15px;
+  text-align: left;
+  right: 30px;
+}
+
+
+.ul-two a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.ul-two a:hover {
+  text-decoration: underline;
+  color: red
+}
+
+
+.current {
+  background-color: green;
+  color: white;
+}
+
+
+.current:hover {
+  transform: translateY(0px);
+  background-color: green;
+}

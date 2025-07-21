@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 20px steelblue;
+  background: linear-gradient(#636FA4);
+}
+
+
+header h1 {
+  font-size: 35px;
+  transition: 0.4s ease;
+  color: rgb(173, 202, 255);
+}
+
+
+header h1:hover {
+  text-decoration: underline;
+}
+
+
+nav {
+  padding: 50px;
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+
+nav a {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.4s ease;
+  color: rgb(173, 202, 255);
+  text-align: center;
+}
+
+
+nav a:hover {
+  transform: translateY(-15px);
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+
+
+.current {
+  background-color: green;
+  color: white;
+}
+
+
+.current:hover {
+  transform: translateY(0px);
+  background-color: green;
+}
+
+
+.SaveTheWorld {
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+
+.SaveTheWorld:hover {
+  transform: translateX(20px);
+}
+
+
+.header {
+  padding: 20px;
+  border: double 10px;
+  background: transparent;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.main-section {
+  padding-top: 200px;
+  box-shadow: 0px 0px 10px inset;
+  background: linear-gradient(#636FA4 , #FFE47A);
+  padding-bottom:190px;
+}
+
+
+.About-Us {
+  text-align: center;
+  padding: 40px;
+  padding-top: 250px;
+  display: grid;
+  grid-template-columns: 100px 1000px;
+  gap: 150px 520px;
+  align-items: center;
+}
+
+
+.Jack {
+  box-shadow: 0px 0px 40px black;
+}
+
+
+img {
+  cursor: pointer;
+  border-radius: 100%;
+  transition: 0.3s ease;
+}
+
+
+img:hover {
+  transform: translateY(-20px);
+}
+
+
+.About-Me {
+  border: groove 17px #2C5364;
+  color: white;
+  width: 1100px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+
+.About-Him {
+  border: groove 17px #2C5364;
+  color: white;
+  padding: 50px;
+  width: 1100px;
+  margin-bottom: 120px;
+}
+
+
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+footer img {
+  transition: 0.3s ease;
+}
+
+
+footer img:hover {
+  transform: translateY(-10px)
+}
+
+
+footer h2 {
+  font-size: 35px;
+}
+
+
+.About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+}

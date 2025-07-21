@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(182, 190, 255);
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 20px steelblue;
+  background: linear-gradient(white , rgb(146, 202, 253));
+}
+
+
+header h1 {
+  font-size: 35px;
+  transition: 0.4s ease;
+  color: crimson;
+}
+
+
+header h1:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
+
+
+nav {
+  padding: 50px;
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+
+nav a {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.4s ease;
+  color: rgb(0, 110, 255);
+  text-align: center;
+}
+
+
+nav a:hover {
+  transform: translateY(-15px);
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+
+
+.current {
+  background-color: green;
+  color: white;
+}
+
+
+.current:hover {
+  transform: translateY(0px);
+  background-color: green;
+}
+
+
+.SaveTheWorld {
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+
+.SaveTheWorld:hover {
+  transform: translateX(20px);
+}
+
+
+main {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+
+main h1 {
+  font-size: 75px;
+  color: rgb(89, 100, 244);
+  text-align: center;
+}
+
+
+.support-center {
+  text-align: center;
+  width: 36%;
+}
+
+
+textarea {
+  resize: none;
+  min-width: 500px;
+  min-height: 200px;
+  border-radius: 50px;
+  padding: 35px;
+}
+
+textarea:focus {
+  outline: rgb(0, 120, 186) solid 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+
+input {
+  width: max-content;
+  padding: 5px 30px;
+}
+
+
+input {
+   border: none;
+   outline: none;
+   padding: 10px 30px ;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: green;
+  color: white;
+  font-weight: 900;
+}
+
+
+input:active{
+    box-shadow: 0 0 5px inset rgba(0, 0, 0, 0.5);
+    transform: scale(0.98);
+}
