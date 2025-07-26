@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+header {
+    padding: 50px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    gap: 150px;
+}
+
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+
+nav a:hover {
+    color: rgb(182, 16, 49);
+    text-decoration: underline;
+}
+
+
+.main-section {
+    color: white;
+}
+
+
+img {
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+img:hover {
+    box-shadow: 0px 0px 20px crimson;
+}
+
+
+.orange {
+    color: orangered;
+}
+
+
+.blue {
+    color: cornflowerblue;
+}
+
+
+.red {
+    color: red;
+}
+
+
+.darkblue {
+    color: #61568f;
+}
+
+
+.yellow {
+    color: yellow;
+}
+
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 30%;
+}
+
+
+.main-section {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.typing-text {
+    font-size: 17px;
+}
+
+
+.typing-text h1 {
+    color: crimson;
+}
+
+
+.typing-text h2 {
+    color: rgb(182, 151, 111);
+}

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+header {
+    padding: 80px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    gap: 150px;
+}
+
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    transition: 0.3s ease;
+}
+
+
+nav a:hover {
+    color: rgb(182, 16, 49);
+    text-decoration: underline;
+}
+
+
+.home-img img {
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.home-img img:hover {
+    box-shadow: 0px 0px 20px crimson;
+}
+
+
+.home-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    height: 60vh;
+}
+
+
+span {
+    color: crimson;
+}
+
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-text {
+    color: white;
+}
+
+
+.typing-text {
+    width: 750px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+
+
+#home-h1 {
+    font-size: 60px;
+}
+
+
+#home-h3 {
+    font-size: 60px;
+}
+
+
+#home-p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.btn {
+    color: crimson;
+    border-color: crimson;
+    border-radius: 30px;
+    height: 50px;
+    width: 130px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+
+.btn:hover {
+    background-color: crimson;
+    color: white;
+    border-width: 1px;
+}
+
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.contact-icons a{
+    transition: 0.3s ease-in-out;
+}
+
+
+.contact-icons a:hover {
+    transform: translateY(-7px);
+}
+
+
+.orange {
+    color: rgb(255, 145, 0);
+}
+
+
+.blue {
+    color: cornflowerblue;
+}
+
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+
+.underline {
+    text-decoration: underline;
+    color: grey;
+    font-weight: bold;
+}

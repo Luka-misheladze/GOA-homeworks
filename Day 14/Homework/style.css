@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background: linear-gradient(#1e130c , #3b332e);
+}
+
+
+.nav1  {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    gap: 100px;
+    font-size: 25px;
+}
+
+
+.a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    transition: 0.2s ease;
+    padding: 10px;
+    border-radius: 13px;
+    color: white;
+}
+
+
+.a:hover {
+    /* background-color: #1e130c; */
+    text-shadow: 0px 0px 20px white;
+}
+
+
+.hero-img {
+    background: url(./Assets/Nature\ 0.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+
+.hero-texts {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    gap: 30px;
+}
+
+
+.main-section-texts {
+    padding: 30px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    border: double 10px burlywood;
+}
+
+
+.main-section-img img {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+
+.main-section-img img:hover {
+    transform: scale(1.1);
+}
+
+
+.main-section-img {
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#3b332e , #1e130c );
+    padding-bottom: 200px;
+}
+
+
+.brown {
+    color: rgb(141, 63, 0);
+    font-weight: 550;
+    font-size: 35px;
+}
+
+
+.blue {
+    color: rgb(51, 138, 238);
+    text-shadow: 0px 0px 20px black;
+}
+
+
+.white {
+    color: burlywood;
+}
+
+
+footer {
+    background: linear-gradient(#1e130c);
+    box-shadow: 0px 0px 20px;
+    padding: 60px;
+}
+
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+nav a {
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    transform: scale(1.3);
+}
+
+
+footer nav a h3 {
+    color: gainsboro;
+    font-size: 40px;
+}

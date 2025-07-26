@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header {
+    background-color: rgb(37, 37, 37);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+}
+
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: wheat;
+}
+
+nav a:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+
+.main-a {
+    transition: 0.3s ease;
+}
+
+
+.main-a:hover {
+    transform: scale(1.1);
+}
+
+
+.current {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: wheat;
+    color: black;
+}
+
+
+.current:hover{
+    transform: none;
+    color: black;
+}
+
+
+.header {
+    background: url(./Assets_2/Background\ im.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 84.4vh;
+}
+
+
+.header-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    padding-left: 30px;
+    gap: 15px;
+}
+
+
+.main-h2 {
+    font-size: 50px;
+}
+
+
+.main-p {
+    font-size: 25px;
+}
+
+
+.hero-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+    padding-left: 130px;
+    font-size: 25px;
+    gap: 25px;
+}
+
+
+.hero-text h3 {
+    font-size: 50px;
+}

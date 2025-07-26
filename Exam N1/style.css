@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+
+.red {
+    color: crimson;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    align-items: center;
+    gap: 200px;
+    background-color: rgb(22, 22, 22);
+}
+
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease;
+}
+
+
+nav a:hover {
+    transform: scale(1.2);
+    color: crimson;
+}
+
+
+.main-h1 {
+    color: white;
+    transition: 0.3s ease;
+}
+
+
+.main-h1:hover {
+    transform: rotate(-3deg);
+}
+
+
+.main {
+    background: url(./Assets/RepairShop\ \(test\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.main-text p {
+    color: white;
+    font-size: 25px;
+}
+
+
+.repair {
+    font-size: 65px;
+    color: white;
+}
+
+
+.Yellow {
+    font-size: 100px;
+    color: rgb(192, 192, 0);
+}
+
+
+button {
+    margin-top: 10px;
+    width: 150px;
+    padding: 14px;
+    font-size: 20px;
+    text-align: center;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+
+button:hover {
+    transform: rotate(5deg);
+}
+
+
+h3 {
+    font-size: 50px;
+    transition: 0.3s ease;
+}
+
+
+h3:hover {
+    transform: rotate(2deg);
+}
+
+
+footer nav img {
+    transition: 0.3s ease;
+}
+
+
+footer nav img:hover {
+    transform: translateY(-10px);
+}
