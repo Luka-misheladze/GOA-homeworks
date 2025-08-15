@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Order</title>
+</head>
+<body>
+    <header>
+
+        <div class="header-img">
+            
+            <div class="header-nav">
+                <nav>
+                    <a href="#order-section-page">Order</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+
+            <div class="header-text">
+                <h1>Welcome to our restaurant!</h1>
+                <p>Order anything you want.</p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div class="order-section">
+        <div class="order-section-text">
+            <h2>We have Services</h2>
+        </div>
+
+
+        <div id="order-section-page" class="order-section-cards">
+           
+            <div class="card-delivery">
+
+                <img src="https://www.shutterstock.com/image-vector/courier-on-scooter-boxes-trunk-600nw-1994511011.jpg" width="400px" alt="Delivery Service">
+                <h3>Delivery Service</h3>
+                <p>To make delivery you must order first</p>
+                <button class="button-to-order">Order</button>
+
+            </div>
+
+
+            <div class="card-order">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqGZhE97ry6JHrv87LeQxjPsweMnzgchb93A3dZAMLJp_ov-by4T3vBg62KCgDiwAwj-4&usqp=CAU" width="160px" alt="Order on the spot">
+                <h3>Order here</h3>
+                <p>Order right here in our restaurant on the spot!</p>
+                <a href="#order_here"><button class="button-to-order">Order</button></a>
+
+            </div>
+
+        </div>
+
+
+        <div class="order-here" id="order_here">
+            <h2 class="order-text">Order Here!</h2>
+            <form>
+                <div class="food-order">
+                    <label for="text">Food you want to order: </label>
+                    <input type="text" name="" id="text" placeholder="Food" required>
+                    <input type="submit" id="submit-button">
+                </div>
+
+
+                <div class="steak-order">
+                    <h3>If ordering a steak: </h3>
+                    <select>
+                        <option selected value="None">None</option>
+                        <option value="Rare">Rare</option>
+                        <option value="Medium-Rare">Medium Rare</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Medium-Well">Medium Well</option>
+                        <option value="Well-Done">Well-Done</option>
+                    </select>
+                    
+                    
+                    <input type="submit" id="submit-button">
+                </div>
+
+            </form>
+        </div>
+        
+    </div>
+
+
+    <footer>
+        <h3 class="footer-text">Contact Us:</h3>
+        <a target="_blank" href=""><img src="./Assets/facebook.png" alt="Facebook"></a>
+        <a target="_blank" href=""><img src="./Assets/youtube.png" alt="Youtube"></a>
+        <a target="_blank" href=""><img src="./Assets/instagram.png" alt="Instagram"></a>
+        <a target="_blank" href=""><img src="./Assets/github.png" alt="Github"></a>
+    </footer>
+</body>
+</html>

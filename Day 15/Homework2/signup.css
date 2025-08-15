@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#373B44 , #4286f4);
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    font-size: 35px;
+}
+
+label {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-div {
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-input {
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 23px;
+    outline-color: blue;
+}
+
+.email-div {
+    display: flex;
+    gap: 28px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    transform: scale(1.2);
+    background-color: #4286f4;
+    color: white;
+    border: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    width: auto;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}

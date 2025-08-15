@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-bottom: solid 3px black;
+}
+
+.car-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.food-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sport-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.programming_language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.selection-types {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+select {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.header-h1 {
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    cursor: default;
+    padding-bottom: 5px;
+    font-family: 'Unbounded';
+}
+
+.header-h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    transition: 0.4s ease;
+}
+
+.header-h1:hover::after {
+    width: 100%;
+}
