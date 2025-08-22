@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, serif;
+    background:linear-gradient(#333333 , #dd1818);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-img {
+    background: url(./Assets/Mountain\ \(georgia-homework\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 80vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.nav-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 35px;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+    width: max-content;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    background-color: red;
+    height: 2px;
+    transition: 0.6s ease;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.blog {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+    width: max-content;
+}
+
+.blog::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.6s ease;
+    height: 2px;
+    background-color: red;
+}
+
+.blog:hover::after {
+    width: 100%;
+}
+
+.contact {
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    padding-bottom: 3px;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.6s ease;
+    background-color: red;
+    height: 2px;
+    width: 0%;
+}
+
+.contact:hover::after {
+    width: 100%;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    margin-left: 100px;
+    color: white;
+    gap: 30px;
+}
+
+.header-text p {
+    font-size: 20px;
+    cursor: default;
+}
+
+.lead {
+    font-size: 70px;
+    color: rgb(184, 17, 17);
+    cursor: default;
+}
+
+.explore-button {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(189, 29, 29);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.explore-button:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+.header-text-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.georgia-hymn {
+    margin-right: 100px;
+    border: double 10px white;
+    padding: 10px;
+}
+
+.hymn-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lead-text-hymn {
+    font-size: 35px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-reverse {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-reverse .text {
+    order: 2;
+}
+
+.card-reverse .image {
+    order: 1;
+}
+
+.image img {
+    width: 130%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 15px;
+    border: double 10px white;
+    padding: 10px;
+}
+
+.image img:hover {
+    box-shadow: 0px 0px 30px black;
+}
+
+.text h2 {
+    font-size: 3.1rem;
+    margin-bottom: 1rem;
+    color: white;
+    cursor: default;
+}
+
+.text p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    cursor: default;
+}
+
+.text a {
+    color: rgb(226, 198, 39);
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 70px;
+    border: solid 2px white;
+    border-radius: 20px;
+    margin: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-size: 35px;
+    color: white;
+    cursor: default;
+}
+
+.header-text a {
+    text-decoration: none;
+}
+
+.nav img {
+    transition: 0.4s ease;
+}
+
+.nav img:hover {
+    transform: translateY(-15px);
+}

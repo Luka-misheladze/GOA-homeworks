@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.perfume {
+    letter-spacing: 5px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 100vh;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.left-side img {
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 15px;
+}
+
+.right-side img {
+    width: 15px;
+}
+
+.right-side p {
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+}
+
+.right-side h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.green {
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.line {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.button-section button {
+    padding: 15px 25px;
+    width: 90%;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.both {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    height: max-content;
+    border-radius: 10px;
+}

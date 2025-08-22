@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262C44;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-side1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    font-family: 'Unbounded' , sans-serif;
+    transition: 0.3s ease;
+}
+
+.brand-name:hover {
+    transform: translateX(15px);
+}
+
+.nav-side2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.join-us {
+    background-color: #38A9DB;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.join-us:hover {
+    box-shadow: 0px 0px 10px #38A9DB;
+}
+
+.home {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    transform: translateX(-50%);
+    height: 2px;
+    transition: 0.5s linear;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.product {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+    width: max-content;
+}
+
+.product::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    transform: translateX(-50%);
+    height: 2px;
+    transition: 0.6s ease;
+}
+
+.product:hover::after {
+    width: 100%;
+}
+
+.price {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.price::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    transform: translateX(-50%);
+    height: 2px;
+    transition: 0.6s ease;
+}
+
+.price:hover::after {
+    width: 100%;
+}
+
+.contact {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    transform: translateX(-50%);
+    height: 2px;
+    transition: 0.6s ease;
+}
+
+.contact:hover::after {
+    width: 100%;
+}
+
+.login {
+    text-decoration: none;
+}
+
+.login:hover {
+    text-decoration: underline;
+}
+
+.main-section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    gap: 50px;
+    color: white;
+    text-align: center;
+}
+
+.lead-h2 {
+    font-size: 60px;
+}
+
+.lead-p {
+    font-size: 17px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first-button {
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: #38A9DB;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.first-button:hover {
+    box-shadow: 0px 0px 10px #38A9DB;
+}
+
+.second-button {
+    padding: 10px 25px;
+    border: 1px solid #38A9DB;
+    border-radius: 7px;
+    color: #38A9DB;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.second-button:hover {
+    box-shadow: 0px 0px 10px #38A9DB;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px #38A9DB;
+    transform: translateY(-20px);
+}
+
+.card p {
+    color: rgb(177, 177, 177);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 60px;
+    cursor: default;
+}
+
+.card h3 {
+    font-size: 24px;
+    cursor: default;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-top: 300px;
+    border: solid 2px white;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.Contact-us {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    font-size: 30px;
+}
+
+.nav img {
+    transition: 0.4s ease;
+}
+
+.nav img:hover {
+    transform: translateY(-15px);
+}
