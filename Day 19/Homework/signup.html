@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Main Page</a>
+        </nav>
+    </header>
+
+    <section id="sign-up">
+        <div class="auth-container">
+            <h1>Sign Up</h1>
+
+            <form>
+                <div class="registration">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" required placeholder="Enter your username">
+                </div>
+
+                <div class="registration">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="registration">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Enter your password">
+                </div>
+
+                <div class="registration">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+
+                <div class="remember-me">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Remember me</label>
+                </div>
+
+                <div class="submit-btn">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+
+            <div class="login-link">
+                <p>Already have an account?</p> <a href="./login.html">Login</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

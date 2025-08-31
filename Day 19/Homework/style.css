@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #0c0c2d;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo {
+    cursor: default;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(218, 218, 218);
+    letter-spacing: 5px;
+}
+
+.crimson {
+    color: crimson;
+}
+
+.home {
+    display: inline-block;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: white;
+    transition: 0.6s ease;
+    width: 0%;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.about {
+    display: inline-block;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: white;
+    transition: 0.6s ease;
+    width: 0%;
+}
+
+.about:hover::after {
+    width: 100%;
+}
+
+.news {
+    display: inline-block;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+.news::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: white;
+    transition: 0.6s ease;
+    width: 0%;
+}
+
+.news:hover::after {
+    width: 100%;
+}
+
+.contact {
+    display: inline-block;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: white;
+    transition: 0.6s ease;
+    width: 0%;
+}
+
+.contact:hover::after {
+    width: 100%;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+    gap: 25px;
+    color: white;
+    cursor: default;
+}
+
+.highlight {
+    color: crimson;
+    margin-left: 15px;
+}
+
+.highlight:hover {
+    text-decoration: underline;
+}
+
+.help {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.help:hover {
+    text-decoration: underline;
+}
+
+.login {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login:hover {
+    text-decoration: underline;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: max-content;
+    padding: 15px 35px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    letter-spacing: 3px;
+}
+
+.download-button:hover {
+    box-shadow: 0px 0px 15px crimson;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lead-h2 {
+    font-size: 50px;
+}
+
+.lead-p {
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px;
+    height: 350px;
+    justify-content: center;
+    padding: 60px 80px;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(207, 207, 207);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.card-lead {
+    font-size: 30px;
+}
+
+.card-p {
+    font-size: 20px;
+}

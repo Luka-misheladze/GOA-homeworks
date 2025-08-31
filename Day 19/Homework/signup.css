@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#000046 , #1CB5E0);
+}
+
+header {
+    padding: 50px;
+}
+
+nav a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#sign-up {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    color: white;
+    background: transparent;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 550px; /* Fixed width for form */
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.auth-container h1 {
+    font-size: 40px;
+}
+
+
+.registration input {
+    padding: 6px 15px;
+    border-radius: 7px;
+    border: 1px solid;
+    width: 250px;
+    outline-width: 1px;
+    background: transparent;
+    color: white;
+    outline-color: white;
+    outline-offset: 0px;
+}
+
+label {
+    color: white;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.registration label {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 35px;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    border-radius: 7px;
+    border: 1px solid;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.login-link p {
+    cursor: default;
+}
+
+.login-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

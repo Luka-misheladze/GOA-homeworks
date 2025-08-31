@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#0F2027 , #203A43);
+}
+
+header {
+    padding: 50px;
+}
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.auth-container {
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-container h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.registration input {
+    padding: 10px;
+    border-radius: 7px;
+    border: solid 1px white;
+    margin-bottom: 20px;
+    width: 100%;
+    background: transparent;
+    outline-offset: 0px;
+    outline-color: white;
+    outline-width: 1px;
+}
+
+.registration input:focus {
+    color: rgba(255, 255, 255, 0.877);
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sign-up {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.sign-up p {
+    font-size: 17px;
+    cursor: default;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.submit-btn button {
+    padding: 7px 50px;
+    border-radius: 7px;
+    border: 1px solid;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    transition: 0.3s ease;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.808);
+}
