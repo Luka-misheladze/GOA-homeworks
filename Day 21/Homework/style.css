@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif, serif;
+    height: 100vh;
+}
+
+.about-hamsters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    background: linear-gradient(#96c93d, #00b09b);
+    padding: 100px;
+}
+
+.about-hamsters-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+    color: white;
+}
+
+.hamster-img img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.button-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-button {
+    padding: 13px;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px;
+    transition: 0.7s ease;
+}
+
+.about-button:hover {
+    transition: 0.5s ease;
+    background: transparent;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.care-tips-button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 7px;
+}
+
+.care-tips-button::after {
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    transition: 0.7s ease;
+    height: 2px;
+    background-color: white;
+    width: 0%;
+}
+
+.care-tips-button:hover::after {
+    width: 85%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 3px #00b09b;
+    padding: 25px;
+}
+
+.nav-brand-name {
+    cursor: default;
+}
+
+.nav-brand-name h2 {
+    color: #96c93d;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #96c93d;
+    font-size: 19px;
+}
+
+.home {
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    width: 0%;
+    background-color: #96c93d;
+    height: 2px;
+}
+
+.home:hover::after {
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.food {
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.food::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    width: 0%;
+    background-color: #96c93d;
+    height: 2px;
+}
+
+.food:hover::after {
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.cage {
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-top: 4px;
+    position: relative;
+}
+
+.cage::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    width: 0%;
+    background-color: #96c93d;
+    height: 2px;
+}
+
+.cage:hover::after {
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.contact {
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    width: 0%;
+    background-color: #96c93d;
+    height: 2px;
+}
+
+.contact:hover::after {
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+#food {
+    background: linear-gradient(#56ab2f, #a8e063);
+    padding-top: 200px;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    gap: 130px; /* Space between items */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid */
+    padding: 15px 20px; /* Padding inside the grid */
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 25px 25px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.price-and-name {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.was {
+    text-decoration: line-through;
+}
+
+.cart-button {
+    border: none;
+    background-color: rgb(14, 101, 207);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.cart-button:hover {
+    transition: 0.4s ease;
+    background: transparent;
+    color: rgb(14, 101, 207);
+}
+
+.food-section-head-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.food-section-head-text-h2 {
+    color: white;
+    border: 7px double rgb(142, 255, 142);
+    padding: 10px;
+}
+
+footer {
+    background-color: #a8e063;
+    padding-top: 100px;
+}
+
+footer .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: solid 2px;
+    padding: 70px;
+}
+
+.nav a {
+    transition: 0.5s ease;
+}
+
+.nav a:hover {
+    transition: 0.3s ease;
+    transform: translateY(-15px);
+}
+
+footer h4 {
+    font-size: 30px;
+    cursor: default;
+}

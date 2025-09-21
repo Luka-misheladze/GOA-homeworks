@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    height: 100vh;
+    background-color: rgb(255, 231, 185);
+}
+
+header {
+    padding: 50px;
+    font-size: 22px;
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-lead-text {
+    margin-top: 20px;
+}
+
+.img img {
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.hamster-housing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lead-text {
+    font-size: 25px;
+}
+
+.lead-p {
+    font-size: 20px;
+}
+
+.hamster-housing-information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hamster-housing-information p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hamster-temperature {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hamster-temperature p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.hamster-medical-needs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.hamster-medical-needs p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hamster-housing-a-tag {
+    color: rgb(215, 91, 112);
+}
+
+.hamster-housing-a-tag:hover {
+    text-decoration: none;
+}
+
+.hamster-diet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.hamster-diet-information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hamster-diet-information p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hamster-diet-information a {
+    color: rgb(215, 91, 112);
+}
+
+.hamster-diet-information a:hover {
+    text-decoration: none;
+}
