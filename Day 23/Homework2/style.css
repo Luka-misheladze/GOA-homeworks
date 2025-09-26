@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box {
+    margin-bottom: 10px;
+}
+
+.box-0 {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    text-align: center;
+}
+
+.box-1 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+}
+
+.box-2 {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    text-align: center;
+}
+
+.box-3 {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.box-4 {
+    width: 400px;
+    height: 400px;
+    background-color: hotpink;
+    text-align: center;
+}

@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid;
+    padding: 30px;
+}
+
+.search-bar label {
+    font-size: 22px;
+    cursor: default;
+    color: darkred;
+}
+
+.search-bar input {
+    padding: 8px 13px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    background: transparent;
+    outline: none;
+    transition: border-color 0.6s ease;
+    color: white;
+}
+
+.search-bar input:focus {
+    border-color: darkred;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 21px;
+}
+
+.home {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.7s ease;
+    height: 2px;
+    background-color: darkred;
+    width: 0%;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.about {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.7s ease;
+    height: 2px;
+    background-color: darkred;
+    width: 0%;
+}
+
+.about:hover::after {
+    width: 100%;
+}
+
+.shop {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.shop::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.7s ease;
+    height: 2px;
+    background-color: darkred;
+    width: 0%;
+}
+
+.shop:hover::after {
+    width: 100%;
+}
+
+.contact {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.7s ease;
+    height: 2px;
+    background-color: darkred;
+    width: 0%;
+}
+
+.contact:hover::after {
+    width: 100%;
+}
+
+.header-background-img {
+    background: url(./Assets/pexels-sam-mccool-1923523643-28891882.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-background-img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-left: 200px;
+    font-size: 23px;
+    gap: 50px;
+    color: white;
+}
+
+.header-background-img-text button {
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    width: 120px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.header-background-img-text button:hover {
+    box-shadow: 0px 0px 15px black;
+}
+
+.green {
+    color: rgb(13, 224, 13);
+    font-weight: bold;
+}
+
+.red {
+    color: darkred;
+    font-weight: bold;
+}
+
+.brown {
+    color: rgb(190, 106, 2);
+    font-weight: bold;
+}
+
+.choose-car-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.choose-car-lead-text {
+    color: white;
+    border: double 7px darkred;
+    display: inline-block;
+    padding: 7px 20px;
+    cursor: default;
+}
+
+.card img {
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.card {
+    cursor: default;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border: solid 2px gray;
+    width: 300px;
+    text-align: left;
+    transition: box-shadow 0.4s ease;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px darkred;
+}
+
+.car-img {
+    display: flex;
+    justify-content: center;
+}
+
+.car-info {
+    margin-left: 15px;
+}
+
+.divider {
+    border-bottom: 1px solid gray;
+    margin: 10px 0;
+}
+
+.tags {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.tags span {
+    background-color: gray;
+    padding: 4px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    border-top: 2px solid white;
+    padding: 20px;
+}
+
+footer h4 {
+    font-size: 26px;
+    cursor: default;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
