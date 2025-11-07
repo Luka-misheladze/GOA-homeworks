@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork / Day 28 calculator</title>
+    <style>
+        button {
+            cursor: pointer;
+            width: 50px;
+            height: 45px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <h2 id="text"></h2>
+    <div class="calculator">
+        <button onclick="
+            text.textContent += '1'">1</button>
+        <button onclick="
+        text.textContent += '2'">2</button>
+        <button onclick="
+        text.textContent += '3'">3</button>
+        <br>
+        <br>
+        <button onclick="
+        text.textContent += '4'">4</button>
+        <button onclick="
+        text.textContent += '5'">5</button>
+        <button onclick="
+        text.textContent += '6'">6</button>
+        <br>
+        <br>
+        <button onclick="
+        text.textContent += '7'">7</button>
+        <button onclick="
+        text.textContent += '8'">8</button>
+        <button onclick="
+        text.textContent += '9'">9</button>
+        <br>
+        <br>
+        <button onclick="
+        text.textContent += '0'">0</button>
+        <br>
+        <br>
+        <button onclick="
+        text.textContent += ' '">space</button>
+        <button onclick="
+        text.textContent += '+'">+</button>
+        <button onclick="
+        text.textContent += '-'">-</button>
+        <button onclick="
+        text.textContent += '*'">*</button>
+        <button onclick="
+        text.textContent += '**'">**</button>
+        <button onclick="
+        text.textContent += '/'">/</button>
+
+        <button onclick="
+        text.textContent = eval(text.textContent)">=</button>
+    </div>
+</body>
+</html>

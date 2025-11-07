@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework / Day 28 Color Picker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav button {
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            background: transparent;
+            font-size: 17px;
+        }
+
+        .red {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            transition: 0.5s ease;
+            padding-bottom: 2px;
+        }
+
+        .red::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            background-color: red;
+            height: 2px;
+        }
+
+        .red:hover::after {
+            width: 100%;
+        }
+
+        .red:hover {
+            color: red;
+        }
+
+        .green {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            transition: 0.5s ease;
+            padding-bottom: 2px;
+        }
+
+        .green::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            background-color: green;
+            height: 2px;
+        }
+
+        .green:hover::after {
+            width: 100%;
+        }
+
+        .green:hover {
+            color: green;
+        }
+
+        .blue {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            transition: 0.5s ease;
+            padding-bottom: 2px;
+        }
+
+        .blue::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            height: 2px;
+            background-color: blue;
+        }
+
+        .blue:hover::after {
+            width: 100%;
+        }
+
+        .blue:hover {
+            color: blue;
+        }
+
+        .pink {
+            position: relative;
+            display: inline-block;
+            width: fit-content;
+            transition: 0.5s ease;
+            padding-bottom: 2px;
+        }
+
+        .pink::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            height: 2px;
+            background-color: pink;
+        }
+
+        .pink:hover::after {
+            width: 100%;
+        }
+
+        .pink:hover {
+            color: pink;
+        }
+
+        .purple {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            transition: 0.5s ease;
+            padding-bottom: 2px;
+        }
+
+        .purple::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            height: 2px;
+            background-color: purple;
+        }
+
+        .purple:hover::after {
+            width: 100%;
+        }
+
+        .purple:hover {
+            color: purple;
+        }
+
+        .yellow {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            padding-bottom: 2px;
+            transition: 0.5s ease;
+        }
+
+        .yellow::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            height: 2px;
+            background-color: yellow;
+        }
+
+        .yellow:hover::after {
+            width: 100%;
+        }
+
+        .yellow:hover {
+            color: rgb(230, 230, 2);
+        }
+
+        .cyan {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            transition: 0.5s ease;
+            padding-bottom: 2px;
+        }
+
+        .cyan::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            height: 2px;
+            background-color: cyan;
+        }
+
+        .cyan:hover::after {
+            width: 100%;
+        }
+
+        .cyan:hover {
+            color: cyan;
+        }
+
+        .lime {
+            display: inline-block;
+            width: fit-content;
+            position: relative;
+            padding-bottom: 2px;
+            transition: 0.5s ease;
+        }
+
+        .lime::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            width: 0%;
+            height: 2px;
+            background-color: lime;
+        }
+
+        .lime:hover::after {
+            width: 100%;
+        }
+
+        .lime:hover {
+            color: lime;
+        }
+
+        .chocolate {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            padding-bottom: 2px;
+            transition: 0.5s ease;
+        }
+
+        .chocolate::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            height: 2px;
+            background-color: chocolate;
+        }
+
+        .chocolate:hover::after {
+            width: 100%;
+        }
+
+        .chocolate:hover {
+            color: chocolate;
+        }
+
+        .navy {
+            display: inline-block;
+            position: relative;
+            width: fit-content;
+            padding-bottom: 2px;
+            transition: 0.5s ease;
+        }
+
+        .navy::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s ease;
+            height: 2px;
+            background-color: navy;
+        }
+
+        .navy:hover::after {
+            width: 100%;
+        }
+
+        .navy:hover {
+            color: navy;
+        }
+    </style>
+</head>
+<body id="bg_color">
+    <header>
+        <h1 id="text_color">Pick background colors: </h1>
+        <nav>
+            <button class="red" onclick="
+                bg_color.style = 'background-color: red;', text_color.style = 'color: darkred; text-shadow: 0px 0px 10px white; display: inline-block;'">Red</button>
+            <button class="green" onclick="
+            bg_color.style = 'background-color: green;', text_color.style = 'color: darkgreen; text-shadow: 0px 0px 10px white;'">Green</button>
+            <button class="blue" onclick="
+            bg_color.style = 'background-color: blue;' , text_color.style = 'color: darkblue; text-shadow: 0px 0px 10px white;'">Blue</button>
+            <button class="pink" onclick="
+            bg_color.style = 'background-color: pink;' , text_color.style = 'color: hotpink; text-shadow: 0px 0px 10px black;'">Pink</button>
+            <button class="purple" onclick="
+            bg_color.style = 'background-color: purple;' , text_color.style = 'color: purple; text-shadow: 0px 0px 10px white;'">Purple</button>
+            <button class="yellow" onclick="
+            bg_color.style = 'background-color: yellow;' , text_color.style = 'color: yellow; text-shadow: 0px 0px 10px black;'">Yellow</button>
+            <button class="cyan" onclick="
+            bg_color.style = 'background-color: cyan;' , text_color.style = 'color: cyan; text-shadow: 0px 0px 10px black;'">Cyan</button>
+            <button class="lime" onclick="
+            bg_color.style = 'background-color: lime;' , text_color.style = 'color: lime; text-shadow: 0px 0px 10px black;'">Lime</button>
+            <button class="chocolate" onclick="
+            bg_color.style = 'background-color: chocolate;' , text_color.style = 'color: chocolate; text-shadow: 0px 0px 10px white;'">Chocolate</button>
+            <button class="navy" onclick="
+            bg_color.style = 'background-color: navy;' , text_color.style = 'color: navy; text-shadow: 0px 0px 10px white;'">Navy</button>
+        </nav>
+    </header>
+</body>
+</html>
