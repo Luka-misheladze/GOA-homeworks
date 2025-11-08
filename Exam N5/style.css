@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(228, 228, 228);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo h1 {
+    background-color: burlywood;
+    padding: 30px;
+    color: white;
+    cursor: default;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(23, 50, 101);
+    width: 1541px;
+    padding: 37px;
+}
+
+.nav-links a {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.appointment {
+    background-color: burlywood;
+    padding: 38px;
+}
+
+.appointment a {
+    color: white;
+    font-size: 19px;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    height: 2px;
+    background-color: black;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.about {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    height: 2px;
+    background-color: black;
+}
+
+.about:hover::after {
+    width: 100%;
+}
+
+.pages {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.pages::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    height: 2px;
+    background-color: black;
+}
+
+.pages:hover::after {
+    width: 100%;
+}
+
+.service {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.service::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    height: 2px;
+    background-color: black;
+}
+
+.service:hover::after {
+    width: 100%;
+}
+
+.news {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.news::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    height: 2px;
+    background-color: black;
+}
+
+.news:hover::after {
+    width: 100%;
+}
+
+.contact {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+    height: 2px;
+    background-color: black;
+}
+
+.contact:hover::after {
+    width: 100%;
+}
+
+.background-horse-img {
+    background: url(./Assets/pexels-dibert-635499.jpg);
+    height: 30vh;
+    background-position-y: -100px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    color: white;
+}
+
+.info h2 {
+    font-size: 35px;
+    cursor: default;
+}
+
+.info button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: burlywood;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.info button:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.main-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.info-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.info-details h2 {
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.card {
+    border: none;
+    height: 180px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: grey 0px 0px 5px;
+}
+
+.card h3 {
+    font-weight: 100;
+}
+
+.card:hover {
+    background-color: burlywood;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 20px burlywood;
+}
