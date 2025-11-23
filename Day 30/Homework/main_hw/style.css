@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif, serif;
+    background-color: rgb(24, 24, 24);
+}
+
+.logo h1 {
+    background: linear-gradient(#333333 , #dd1818);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+    background: linear-gradient(#333333, #dd1818);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.7s ease;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-bar {
+    margin-right: 40px;
+}
+
+.search-bar input {
+    padding: 5px 15px;
+    outline: none;
+    border: 1px solid transparent black;
+    transition: 0.4s ease;
+    border-radius: 7px;
+    background: transparent;
+    color: gray;
+    font-size: 16px;
+}
+
+.search-bar input:focus {
+    transition: 0.4s ease;
+    border-color: crimson;
+}
+
+.website-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 89.3vh;
+    text-align: center;
+    color: white;
+    background: url(./Assets/Black\ abstract\ background\ 08.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.gallery-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    background: linear-gradient(#fffbd5, #b20a2c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.gallery-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    transition: 0.5s ease;
+    height: 2px;
+    background: linear-gradient(#fffbd5, #b20a2c);
+    color: transparent;
+    width: 0%;
+}
+
+.gallery-button:hover::after {
+    width: 100%;
+}
