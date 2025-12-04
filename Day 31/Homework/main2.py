@@ -9,7 +9,7 @@ def positive_or_negative(number):
             positive.append(num)
         else:
             negative.append(num)  
-    return positive, negative
+    return f"Positive: {positive} \n Negative: {negative}"
 
 print(positive_or_negative(number_list))
 

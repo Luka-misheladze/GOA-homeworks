@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 20px;
+    text-align: center;
+    background-color: white;
+    width: fit-content;
+    color: black;
+    padding: 10px;
+}
+
+.card img {
+    width: 300px;
+}
+
+.contact {
+    border-top: 1px solid black;
+    width: 100%;
+    padding-top: 10px;
+}
