@@ -1,0 +1,31 @@
+p {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 255, 0);  
+}
+
+h3 {
+    color: rgb(0, 0, 255);
+}
+
+h4 {
+    color: #ff0000;
+}
+
+h5 {
+    color: #00ff00;
+}
+
+h6 {
+    color: #0000ff;
+}
+
+.yellow {
+    color: #ffff00;
+}
