@@ -1,0 +1,26 @@
+.parent {
+    width: 800px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    border: 3px solid red;
+}
+
+.container h1 {
+    font-size: 60px;
+    border: 2px solid blue;
+}
+
+.container h1 u {
+    font-size: 85%;
+    border: 2px solid green;
+}
+
+.container img {
+    width: 65%;
+    border: 2px solid purple;
+}
