@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: lawngreen;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+}
