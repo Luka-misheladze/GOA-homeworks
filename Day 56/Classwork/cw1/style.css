@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 2px dotted black;
+}
+
+.box1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+}
+
+.box2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    position: static;
+}
+
+.box3 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+}
+
+.box4 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+}

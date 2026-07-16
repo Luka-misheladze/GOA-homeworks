@@ -1,0 +1,24 @@
+
+.parent-container {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.red { 
+    background-color: red; 
+}
+
+.blue { 
+    background-color: blue; 
+}
+
+.green {
+    background-color: green;
+    position: relative;
+    left: 30px;      
+    top: 20px;      
+}

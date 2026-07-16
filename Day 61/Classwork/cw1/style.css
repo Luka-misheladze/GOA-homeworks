@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.container:hover {
+    transform: scale(1) rotate(60deg);
+}
+
+.div1 {
+    background-color: darkorange;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+
+.div1:hover {
+    transform: scale(2) rotate(90deg);
+}

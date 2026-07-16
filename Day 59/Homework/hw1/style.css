@@ -1,0 +1,9 @@
+.box-1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url('https://imgs.search.brave.com/7BCucsY5FoaK3TEfB6F0JDdxM_uoS7mdkcRhiVb0w5M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjUv/Mzc1LzIxNi9zbWFs/bC9sYXJnZS13aGl0/ZS1hbmQtcmVkLWFi/c3RyYWN0LXBhdHRl/cm4taW4tdGhlLXN0/eWxlLW9mLWNhcnRv/b24tbGlrZS1maWd1/cmVzLWJsYWNrLWJh/Y2tncm91bmQtbWVz/b2FtZXJpY2FuLWlu/Zmx1ZW5jZXMtc3F1/aWdnbHktbGluZS1z/dHlsZS1zaW1wbGlz/dGljLWNoYXJhY3Rl/cnMtZ3JhZmZpdGkt/bGlrZS1sZXR0ZXJp/bmctdmVjdG9yLmpw/Zw');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}

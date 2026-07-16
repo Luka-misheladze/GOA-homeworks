@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: translate 0.5s, box-shadow 1s 0.2s; 
+}
+
+.profile-card img {
+    border-radius: 50%;
+    transition: rotate 0.8s;
+}
+
+.profile-card h3 {
+    color: black;
+    transition: color 0.3s;
+}
+
+.profile-card:hover {
+    translate: 0 -10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.profile-card:hover img {
+    rotate: 360deg;
+}
+
+.profile-card:hover h3 {
+    color: dodgerblue;
+}

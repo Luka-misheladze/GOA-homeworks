@@ -1,0 +1,10 @@
+.card {
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-image: url('https://imgs.search.brave.com/wb2_IBgk6cMNodf3ijsEo-brVBmSR-96uc6FRtmn0ts/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9hYnN0/cmFjdC1jcmVhdGl2/ZS1pbGx1c3RyYXRp/b24tY29sb3JmdWwt/Y2F0LWJsYWNrLWNv/bG9yLTE4MjgwNjQ4/OS5qcGc');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

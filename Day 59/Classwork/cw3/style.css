@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.box-1 {
+    background-color: #e67e22;
+    transform: scale(2) rotate(50deg);
+}
+
+.box-2 {
+    background-color: #1abc9c;
+    transform: translateX(50px) scale(3) rotate(-60deg);
+}
+
+.box-3 {
+    background-color: #34495e;
+    transform: scale(1.2) rotate(60deg);
+}

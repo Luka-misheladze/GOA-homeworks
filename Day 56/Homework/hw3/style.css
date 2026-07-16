@@ -1,0 +1,9 @@
+.box-static {
+    position: static;
+    left: -40px;
+}
+
+.box-relative {
+    position: relative;
+    left: -40px;
+}

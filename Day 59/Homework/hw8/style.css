@@ -1,0 +1,17 @@
+.outer-div {
+    width: 600px;
+    height: 400px;
+    background: url('https://picsum.photos/id/1015/600/400') center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div {
+    width: 200px;
+    height: 200px;
+    background: url('https://picsum.photos/id/1016/200/200') center / cover no-repeat;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}

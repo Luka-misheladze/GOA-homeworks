@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.div:hover{
+    transform: translateY(-20px);
+}
+
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: blue;
+}
+
+#div3 {
+    background-color: green;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 500px;
+    align-items: center;
+}

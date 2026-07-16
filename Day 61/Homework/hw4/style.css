@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-4 {
+    width: 150px;
+    opacity: 1;
+    transition: opacity 0.5s, scale 0.7s, rotate 1.2s 0.4s;
+}
+
+.img-4:hover {
+    opacity: 0.5;
+    scale: 1.2;
+    rotate: 180deg;
+}

@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-8 {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #eee;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: scale 0.3s, box-shadow 0.7s 0.1s, color 0.2s;
+}
+
+.btn-8:hover {
+    scale: 1.1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    color: dodgerblue;
+}

@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-6 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: scale 0.15s, rotate 2.4s, background-color 1.3s;
+}
+
+.box-6:active {
+    scale: 0.8;
+    rotate: 90deg;
+    background-color: orange;
+}
